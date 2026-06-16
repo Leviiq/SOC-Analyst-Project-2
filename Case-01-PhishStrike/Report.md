@@ -29,7 +29,9 @@ A phishing email targeting faculty members at an educational institution was inv
 ### Authentication Results 
 
 -**SPF:** ❌ SOFTFAIL - Sender IP 18.208.22.104 not authorized for uptc.edu.co domain 
+
 -**DKIM:** ❌ FAIL - No key for signature
+
 -**DMARC:** ❌ NONE - No DMARC policy configured
 
 
