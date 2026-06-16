@@ -1,4 +1,3 @@
-```
 # Phishing Analysis Report: [Case 2]
 
 ## Case Metadata
@@ -79,21 +78,18 @@ malicious via SHA256 hash lookup on VirusTotal.
 ## Indicators of Compromise (IOCs)
 
 ### Email IOCs
-```
 
 Sender: [yanting@united.com.sg](mailto:yanting@united.com.sg)  
 Subject: united scientific equipment  
 Sender IP: 71.19.248.52
 
-```
 
 ### File IOCs
-```
+
 
 Filename: united_scientific_equipent.zip  
 SHA256: 9909753bfb0ac8ab165bab3555233d03b01a9274a92e57c022f87ccbe51ca415
 
-```
 
 ---
 
