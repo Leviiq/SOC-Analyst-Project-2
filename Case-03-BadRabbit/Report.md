@@ -161,12 +161,6 @@ Method: Web-based command and control
 
 ---
 
-## Threat Actor Attribution
-**Attribution:** Sandworm (Russian state-sponsored APT)
-**Known Tactics:**
-- Multi-stage ransomware deployment
-- MBR modification for system destruction
-- Coordinated phishing campaigns
-- Infrastructure spanning multiple countries
+
 
 ---
