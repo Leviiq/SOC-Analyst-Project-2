@@ -1,0 +1,79 @@
+=================================================================
+SOC ANALYST PORTFOLIO - PROJECT 2
+IOC DATABASE - PHISHING ANALYSIS CASES
+=================================================================
+
+NETWORK INDICATORS OF COMPROMISE (IPs)
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+IP,18.208.22.104,PhishStrike,High,Email,SPF softfail sender
+IP,107.175.247.199,PhishStrike,Critical,Infrastructure,Malware hosting server
+IP,216.244.76.116,BRabbit,Critical,Infrastructure,Attacker primary IP
+IP,51.195.254.223,BRabbit,Critical,Infrastructure,Email relay server
+
+DOMAIN INDICATORS OF COMPROMISE
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+Domain,gh9st.mywire.org,PhishStrike,Critical,C2,BitRAT command and control
+Domain,dezoeteinval.co.za,BRabbit,Critical,Email,Spoofed sender domain
+
+EMAIL INDICATORS OF COMPROMISE
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+Email,erikajohana.lopez@uptc.edu.co,PhishStrike,High,Phishing,PayPal phishing sender
+Email,yanting@united.com.sg,Email-Analysis,High,Phishing,United Scientific phishing sender
+Email,theceojamessmith@Drurnbo.com,BRabbit,Critical,Phishing,CEO impersonation sender
+
+FILE INDICATORS OF COMPROMISE
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+File,Jzwwix.exe,PhishStrike,Critical,Malware,BitRAT executable
+File,infpub.dat,BRabbit,Critical,Malware,Bad Rabbit ransomware
+File,united_scientific_equipent.zip,Email-Analysis,Critical,Attachment,Malicious ZIP archive
+
+HASH INDICATORS OF COMPROMISE (SHA256)
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+Hash,bf7628695c2df7a3020034a065397592a1f8850e59f9a448b555bc1c8c639539,PhishStrike,Critical,File,BitRAT executable hash
+Hash,9909753bfb0ac8ab165bab3555233d03b01a9274a92e57c022f87ccbe51ca415,Email-Analysis,Critical,File,Malicious attachment hash
+
+URL INDICATORS OF COMPROMISE
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+URL,hxxp://107.175.247.199/loader/server.exe,PhishStrike,Critical,Malware,BitRAT download URL
+URL,hxxp://ripley.studio/loader/uploads/Qanjttrbv.jpeg,PhishStrike,High,Malware,CoinMiner payload URL
+
+COMMAND AND CONTROL (C2) INDICATORS
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+Telegram,bot5610920260,PhishStrike,High,C2,AsyncRAT Telegram bot ID
+C2-Domain,gh9st.mywire.org,PhishStrike,Critical,C2,BitRAT C2 domain
+
+PERSISTENCE INDICATORS
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+Scheduled-Task,rhaegal,BRabbit,Critical,Persistence,Bad Rabbit task
+Scheduled-Task,drogon,BRabbit,Critical,Persistence,Bad Rabbit task
+Driver,DiskCryptor,BRabbit,Critical,Persistence,MBR encryption driver
+
+MALWARE FAMILY INDICATORS
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+Malware-Family,Bad Rabbit,BRabbit,Critical,Malware,Destructive ransomware
+Malware-Family,BitRAT,PhishStrike,Critical,Malware,Remote access trojan
+Malware-Family,CoinMiner,PhishStrike,High,Malware,Cryptocurrency miner
+Malware-Family,AsyncRAT,PhishStrike,Critical,Malware,Remote access trojan
+
+THREAT ACTOR ATTRIBUTION
+=================================================================
+Type,Value,Case,Severity,Category,Notes
+Threat-Actor,Sandworm,BRabbit,Critical,Attribution,Russian state-sponsored APT
+
+=================================================================
+SUMMARY STATISTICS
+=================================================================
+Total IOCs: 32
+Critical Severity: 18
+High Severity: 6
+Cases Covered: 3 (PhishStrike, Email-Analysis, BRabbit)
+=================================================================
