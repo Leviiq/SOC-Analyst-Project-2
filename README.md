@@ -1,30 +1,36 @@
 # SOC Analyst Portfolio - Project 2: Phishing Email Analysis
 
 ## Overview
-This repository demonstrates hands-on phishing investigation
-skills through real-world style case studies on LetsDefend
-and CyberDefenders.
+Hands-on phishing investigation through real-world case studies.
 
 ## Case Studies
 
-### 1. PhishStrike - Phishing Email Investigation
-- Email header analysis (SPF/DKIM/DMARC)
-- Malicious URL identification
-- Multi-malware delivery analysis (CoinMiner, BitRAT, AsyncRAT)
-- IOC extraction and MITRE ATT&CK mapping
+### Case 1: PhishStrike
+- Email header analysis
+- Multi-malware analysis (CoinMiner, BitRAT, AsyncRAT)
+- C2 communication tracking
+- IOC extraction
 
-### 2. Email Analysis - Malicious Attachment Investigation
-- Email header analysis (SPF/DKIM/DMARC)
-- Malicious attachment identification
-- SHA256 hash verification on VirusTotal
-- Social engineering tactic analysis
+### Case 2: Email Analysis
+- Malicious attachment investigation
+- Social engineering analysis
+- SHA256 verification
+- VirusTotal analysis
+
+### Case 3: BRabbit (Capstone)
+- CEO fraud phishing
+- Multi-stage ransomware attack
+- Persistence mechanisms
+- System destruction analysis
+
+## Deliverables
+- 3 Case Write-ups
+- IOC Database (CSV)
+- MITRE ATT&CK mapping
+- Threat actor attribution
 
 ## Tools Used
-- MXToolbox Email Header Analyzer
+- MXToolbox
 - VirusTotal
-- MalwareBazaar
-- URLHaus
 - AbuseIPDB
-
-## Status
-🔄 In Progress - More cases will be added
+- URLScan.io
